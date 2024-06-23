@@ -1,0 +1,49 @@
+.container {
+    width: 400px;
+    padding: 2rem 0 1rem 0;
+    margin: 100px auto;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin-bottom: 1.7rem;
+  font-size: 15px;
+}
+
+form input {
+  width: 250px;
+  outline: none;
+  border: none;
+  background: #d9dcde;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+
+form p {
+    text-align: left;
+    margin-left: 65px;
+    margin-bottom: 5px;
+}
+
+form > button {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: 8px 0;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  width: 280px;
+  background: #212529;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #424649;
+}
